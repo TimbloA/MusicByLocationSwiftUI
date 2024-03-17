@@ -15,6 +15,10 @@
 		C92635872B94891800E0396C /* MusicByLocationSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92635862B94891800E0396C /* MusicByLocationSwiftUIUITests.swift */; };
 		C92635892B94891800E0396C /* MusicByLocationSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92635882B94891800E0396C /* MusicByLocationSwiftUIUITestsLaunchTests.swift */; };
 		C92635962B948A2200E0396C /* LocationHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92635952B948A2200E0396C /* LocationHandling.swift */; };
+		C9F18BC02BA70A2700A8F11F /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F18BBF2BA70A2700A8F11F /* CLPlacemark.swift */; };
+		C9F18BC22BA70B1D00A8F11F /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F18BC12BA70B1D00A8F11F /* StateController.swift */; };
+		C9F18BC52BA7100900A8F11F /* ArtistResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F18BC42BA7100900A8F11F /* ArtistResponse.swift */; };
+		C9F18BC72BA7103100A8F11F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F18BC62BA7103100A8F11F /* Artist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C92635862B94891800E0396C /* MusicByLocationSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationSwiftUIUITests.swift; sourceTree = "<group>"; };
 		C92635882B94891800E0396C /* MusicByLocationSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicByLocationSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C92635952B948A2200E0396C /* LocationHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandling.swift; sourceTree = "<group>"; };
+		C9F18BBF2BA70A2700A8F11F /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
+		C9F18BC12BA70B1D00A8F11F /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		C9F18BC42BA7100900A8F11F /* ArtistResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistResponse.swift; sourceTree = "<group>"; };
+		C9F18BC62BA7103100A8F11F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,15 @@
 		C92635692B94891500E0396C /* MusicByLocationSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C9F18BC32BA70FF000A8F11F /* Model */,
+				C9F18BBE2BA70A0D00A8F11F /* Extensions */,
 				C926356A2B94891500E0396C /* MusicByLocationSwiftUIApp.swift */,
 				C92635952B948A2200E0396C /* LocationHandling.swift */,
 				C926356C2B94891500E0396C /* ContentView.swift */,
 				C926356E2B94891700E0396C /* Assets.xcassets */,
 				C92635702B94891700E0396C /* MusicByLocationSwiftUI.entitlements */,
 				C92635712B94891700E0396C /* Preview Content */,
+				C9F18BC12BA70B1D00A8F11F /* StateController.swift */,
 			);
 			path = MusicByLocationSwiftUI;
 			sourceTree = "<group>";
@@ -130,6 +141,23 @@
 				C92635882B94891800E0396C /* MusicByLocationSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = MusicByLocationSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		C9F18BBE2BA70A0D00A8F11F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C9F18BBF2BA70A2700A8F11F /* CLPlacemark.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C9F18BC32BA70FF000A8F11F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9F18BC42BA7100900A8F11F /* ArtistResponse.swift */,
+				C9F18BC62BA7103100A8F11F /* Artist.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +293,10 @@
 				C926356D2B94891500E0396C /* ContentView.swift in Sources */,
 				C926356B2B94891500E0396C /* MusicByLocationSwiftUIApp.swift in Sources */,
 				C92635962B948A2200E0396C /* LocationHandling.swift in Sources */,
+				C9F18BC02BA70A2700A8F11F /* CLPlacemark.swift in Sources */,
+				C9F18BC22BA70B1D00A8F11F /* StateController.swift in Sources */,
+				C9F18BC52BA7100900A8F11F /* ArtistResponse.swift in Sources */,
+				C9F18BC72BA7103100A8F11F /* Artist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
